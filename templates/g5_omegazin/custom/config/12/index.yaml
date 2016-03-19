@@ -1,7 +1,21 @@
 name: 12
-timestamp: 1458396371
+timestamp: 1458398610
 preset:
   image: 'gantry-admin://images/layouts/home.png'
   name: home
   timestamp: 1458396278
-positions: {  }
+positions:
+  position-top-a: 'Module Position'
+  position-top-b: 'Module Position'
+  position-top-c: 'Module Position'
+  position-top-d: 'Module Position'
+  position-features-a: 'Module Position'
+  position-features-b: 'Module Position'
+  position-features-c: 'Module Position'
+  position-features-d: 'Module Position'
+  position-bottom-a: 'Module Position'
+  position-bottom-b: 'Module Position'
+  position-bottom-c: 'Module Position'
+  position-bottom-d: 'Module Position'
+  position-footer-a: 'Module Position'
+  position-copyright-a: 'Module Position'

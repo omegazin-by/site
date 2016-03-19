@@ -25,7 +25,6 @@ layout:
   /copyright_panel/:
 
   offcanvas:
-    - mobile-menu
 
 structure:
   sidebar:

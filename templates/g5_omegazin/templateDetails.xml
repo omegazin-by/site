@@ -40,6 +40,29 @@
     <positions>
         <position>debug</position>
         <position>footer</position>
+        <position>position-bottom-a</position>
+        <position>position-bottom-b</position>
+        <position>position-bottom-c</position>
+        <position>position-bottom-d</position>
+        <position>position-breadcrumbs</position>
+        <position>position-copyright-a</position>
+        <position>position-copyright-b</position>
+        <position>position-features-a</position>
+        <position>position-features-b</position>
+        <position>position-features-c</position>
+        <position>position-features-d</position>
+        <position>position-footer-a</position>
+        <position>position-footer-b</position>
+        <position>position-footer-c</position>
+        <position>position-footer-d</position>
+        <position>position-mainbottom-a</position>
+        <position>position-mainbottom-b</position>
+        <position>position-mainbottom-d</position>
+        <position>position-sidebar</position>
+        <position>position-top-a</position>
+        <position>position-top-b</position>
+        <position>position-top-c</position>
+        <position>position-top-d</position>
     </positions>
 
     <config>
