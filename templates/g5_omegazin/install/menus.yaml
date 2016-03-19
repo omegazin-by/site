@@ -1,0 +1,9 @@
+omegazin-theme:
+  title: 'Omegazin Theme'
+  description: 'Sample menu for Omegazin theme.'
+
+  items:
+    omegazin:
+      title: 'Home'
+      layout: home
+      home: 1
