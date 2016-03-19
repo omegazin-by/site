@@ -3,6 +3,7 @@ version: 2
 preset:
   image: gantry-admin://images/layouts/2-col-left.png
 
+
 layout:
   /header/:
     - [logo 30, position-header 70]
