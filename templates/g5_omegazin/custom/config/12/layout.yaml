@@ -1,0 +1,152 @@
+version: 2
+preset:
+  image: 'gantry-admin://images/layouts/home.png'
+  name: home
+  timestamp: 1458396278
+layout:
+  /top_panel/:
+    -
+      - system-messages-5954
+    -
+      - 'position-position-8341 25'
+      - 'position-position-8902 25'
+      - 'position-position-3545 25'
+      - 'position-position-9033 25'
+  /header_panel/: {  }
+  /showcase_panel/: {  }
+  /content_panel/:
+    -
+      - system-content-3650
+  /features_panel/:
+    -
+      - 'position-position-1118 25'
+      - 'position-position-7004 25'
+      - 'position-position-7316 25'
+      - 'position-position-6591 25'
+  /bottom_panel/:
+    -
+      - 'position-position-7158 25'
+      - 'position-position-7641 25'
+      - 'position-position-8898 25'
+      - 'position-position-4631 25'
+  /footer_panel/:
+    -
+      - 'position-position-5923 25'
+      - 'position-position-5371 25'
+      - 'position-position-5997 25'
+      - 'position-position-2528 25'
+  /copyright_panel/:
+    -
+      - 'position-position-9483 50'
+      - 'position-position-5871 50'
+  offcanvas:
+    -
+      - mobile-menu-8603
+structure:
+  top_panel:
+    type: section
+    attributes:
+      boxed: ''
+  header_panel:
+    type: section
+    attributes:
+      boxed: ''
+  showcase_panel:
+    type: section
+    attributes:
+      boxed: ''
+  content_panel:
+    type: section
+    attributes:
+      boxed: ''
+  features_panel:
+    type: section
+    attributes:
+      boxed: ''
+  bottom_panel:
+    type: section
+    attributes:
+      boxed: ''
+  footer_panel:
+    type: section
+    attributes:
+      boxed: ''
+  copyright_panel:
+    type: section
+    attributes:
+      boxed: ''
+content:
+  position-position-8341:
+    title: 'Module Position'
+    attributes:
+      key: position-top-a
+  position-position-8902:
+    title: 'Module Position'
+    attributes:
+      key: position-top-b
+  position-position-3545:
+    title: 'Module Position'
+    attributes:
+      key: position-top-c
+  position-position-9033:
+    title: 'Module Position'
+    attributes:
+      key: position-top-d
+  position-position-1118:
+    title: 'Module Position'
+    attributes:
+      key: position-features-a
+  position-position-7004:
+    title: 'Module Position'
+    attributes:
+      key: position-features-b
+  position-position-7316:
+    title: 'Module Position'
+    attributes:
+      key: position-features-c
+  position-position-6591:
+    title: 'Module Position'
+    attributes:
+      key: position-features-d
+  position-position-7158:
+    title: 'Module Position'
+    attributes:
+      key: position-bottom-a
+  position-position-7641:
+    title: 'Module Position'
+    attributes:
+      key: position-bottom-b
+  position-position-8898:
+    title: 'Module Position'
+    attributes:
+      key: position-bottom-c
+  position-position-4631:
+    title: 'Module Position'
+    attributes:
+      key: position-bottom-d
+  position-position-5923:
+    title: 'Module Position'
+    attributes:
+      key: position-footer-a
+  position-position-5371:
+    title: 'Module Position'
+    attributes:
+      key: position-footer-a
+  position-position-5997:
+    title: 'Module Position'
+    attributes:
+      key: position-footer-a
+  position-position-2528:
+    title: 'Module Position'
+    attributes:
+      key: position-footer-a
+  position-position-9483:
+    title: 'Module Position'
+    attributes:
+      key: position-copyright-a
+  position-position-5871:
+    title: 'Module Position'
+    attributes:
+      key: position-copyright-a
+  mobile-menu-8603:
+    title: 'Mobile Menu'

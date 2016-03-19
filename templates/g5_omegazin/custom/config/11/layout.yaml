@@ -1,0 +1,186 @@
+version: 2
+preset:
+  image: 'gantry-admin://images/layouts/2-col-left.png'
+  name: default
+  timestamp: 1458397369
+layout:
+  /top_panel/:
+    -
+      - system-messages-3972
+    -
+      - 'position-position-2723 25'
+      - 'position-position-8374 25'
+      - 'position-position-7282 25'
+      - 'position-position-3150 25'
+  /header_panel/: {  }
+  /content_panel/:
+    -
+      -
+        'sidebar 30':
+          -
+            - position-position-8627
+      -
+        'main 70':
+          -
+            - position-position-5298
+          -
+            - system-content-2955
+          -
+            - 'position-position-2635 33.3'
+            - 'position-position-6399 33.3'
+            - 'position-position-6680 33.3'
+  /features_panel/:
+    -
+      - 'position-position-5920 25'
+      - 'position-position-7994 25'
+      - 'position-position-3359 25'
+      - 'position-position-3706 25'
+  /bottom_panel/:
+    -
+      - 'position-position-7991 25'
+      - 'position-position-8680 25'
+      - 'position-position-4804 25'
+      - 'position-position-3099 25'
+  /footer_panel/:
+    -
+      - 'position-position-9069 25'
+      - 'position-position-3188 25'
+      - 'position-position-9227 25'
+      - 'position-position-8243 25'
+  /copyright_panel/:
+    -
+      - 'position-position-3471 50'
+      - 'position-position-2184 50'
+  offcanvas:
+    -
+      - mobile-menu-9261
+structure:
+  top_panel:
+    type: section
+    attributes:
+      boxed: '0'
+      class: ''
+  header_panel:
+    type: section
+    attributes:
+      boxed: ''
+  sidebar:
+    type: section
+    subtype: aside
+    block:
+      fixed: 1
+  content_panel:
+    type: section
+    attributes:
+      boxed: ''
+  features_panel:
+    type: section
+    attributes:
+      boxed: ''
+  bottom_panel:
+    type: section
+    attributes:
+      boxed: ''
+  footer_panel:
+    type: section
+    attributes:
+      boxed: ''
+  copyright_panel:
+    type: section
+    attributes:
+      boxed: ''
+content:
+  position-position-2723:
+    title: 'Module Position'
+    attributes:
+      key: position-top-a
+  position-position-8374:
+    title: 'Module Position'
+    attributes:
+      key: position-top-b
+  position-position-7282:
+    title: 'Module Position'
+    attributes:
+      key: position-top-c
+  position-position-3150:
+    title: 'Module Position'
+    attributes:
+      key: position-top-d
+  position-position-8627:
+    title: 'Module Position'
+    attributes:
+      key: position-sidebar
+  position-position-5298:
+    title: 'Module Position'
+    attributes:
+      key: position-breadcrumbs
+  position-position-2635:
+    title: 'Module Position'
+    attributes:
+      key: position-mainbottom-a
+  position-position-6399:
+    title: 'Module Position'
+    attributes:
+      key: position-mainbottom-b
+  position-position-6680:
+    title: 'Module Position'
+    attributes:
+      key: position-mainbottom-d
+  position-position-5920:
+    title: 'Module Position'
+    attributes:
+      key: position-features-a
+  position-position-7994:
+    title: 'Module Position'
+    attributes:
+      key: position-features-b
+  position-position-3359:
+    title: 'Module Position'
+    attributes:
+      key: position-features-c
+  position-position-3706:
+    title: 'Module Position'
+    attributes:
+      key: position-features-d
+  position-position-7991:
+    title: 'Module Position'
+    attributes:
+      key: position-bottom-a
+  position-position-8680:
+    title: 'Module Position'
+    attributes:
+      key: position-bottom-b
+  position-position-4804:
+    title: 'Module Position'
+    attributes:
+      key: position-bottom-c
+  position-position-3099:
+    title: 'Module Position'
+    attributes:
+      key: position-bottom-d
+  position-position-9069:
+    title: 'Module Position'
+    attributes:
+      key: position-footer-a
+  position-position-3188:
+    title: 'Module Position'
+    attributes:
+      key: position-footer-b
+  position-position-9227:
+    title: 'Module Position'
+    attributes:
+      key: position-footer-c
+  position-position-8243:
+    title: 'Module Position'
+    attributes:
+      key: position-footer-d
+  position-position-3471:
+    title: 'Module Position'
+    attributes:
+      key: position-copyright-a
+  position-position-2184:
+    title: 'Module Position'
+    attributes:
+      key: position-copyright-b
+  mobile-menu-9261:
+    title: 'Mobile Menu'
